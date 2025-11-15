@@ -9,6 +9,6 @@
     "serve": "npm run watch:css & bundle exec jekyll serve --livereload"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^4.1.17"
   }
 }
