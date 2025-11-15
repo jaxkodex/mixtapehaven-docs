@@ -1,7 +1,8 @@
 # Site settings
 title: Mixtape Haven
 description: Your private, ad-free music sanctuary. Rediscover the art of the mixtape.
-url: "" # the base hostname & protocol for your site
+url: "https://jaxkodex.github.io" # the base hostname & protocol for your site
+baseurl: "/mixtapehaven-docs" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
