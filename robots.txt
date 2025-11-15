@@ -1,0 +1,6 @@
+# robots.txt for Mixtape Haven
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://jaxkodex.github.io/mixtapehaven-docs/sitemap.xml
