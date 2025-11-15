@@ -8,6 +8,11 @@ baseurl: "/mixtapehaven-docs" # the subpath of your site, e.g. /blog
 markdown: kramdown
 permalink: pretty
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # Exclude from processing
 exclude:
   - node_modules/
