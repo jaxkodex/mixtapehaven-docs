@@ -1,0 +1,14 @@
+{
+  "name": "mixtapehaven-docs",
+  "version": "1.0.0",
+  "description": "Mixtape Haven landing page with Jekyll and Tailwind CSS",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "build": "npm run build:css && bundle exec jekyll build",
+    "serve": "npm run watch:css & bundle exec jekyll serve --livereload"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
