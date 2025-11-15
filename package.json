@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Mixtape Haven landing page with Jekyll and Tailwind CSS",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify",
-    "watch:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/style.css --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/style.css --watch",
     "build": "npm run build:css && bundle exec jekyll build",
     "serve": "npm run watch:css & bundle exec jekyll serve --livereload"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.18"
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
   }
 }
