@@ -9,7 +9,7 @@
     "serve": "npm run watch:css & bundle exec jekyll serve --livereload"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.17",
+    "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.17"
   }
 }
