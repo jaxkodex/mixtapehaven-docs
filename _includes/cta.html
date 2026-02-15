@@ -1,25 +1,54 @@
-<section class="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-gradient-to-b from-black via-gray-900 to-cyan-950">
-  <div class="container mx-auto max-w-4xl text-center">
-    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">
-      Ready to Listen?
-    </h2>
-    <p class="text-base sm:text-lg lg:text-xl text-gray-300 mb-8 sm:mb-10 lg:mb-12">
-      Download Mixtape Haven and take back control of your music.
-    </p>
-
-    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-md sm:max-w-none mx-auto">
-      <button class="btn-primary text-base sm:text-lg w-full sm:w-auto" aria-label="Download Mixtape Haven on the App Store">
-        Download on the App ...
-      </button>
-      <button class="btn-secondary text-base sm:text-lg w-full sm:w-auto" aria-label="Get Mixtape Haven on Google Play">
-        Get it on Google ...
-      </button>
+  <footer class="bg-background-dark py-20 px-6 border-t-2 border-primary/20">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center gap-2 mb-8">
+          <div class="w-10 h-10 bg-primary flex items-center justify-center rotate-45">
+            <span class="material-icons text-background-dark -rotate-45 text-xl">bolt</span>
+          </div>
+          <span class="font-mono text-2xl font-bold tracking-tighter uppercase italic">Mixtape_Haven</span>
+        </div>
+        <p class="text-gray-500 font-mono text-sm max-w-sm mb-8">
+          A community-driven Jellyfin client focused on aesthetic brutality and raw audio performance. No trackers, no bloat, just music.
+        </p>
+        <div class="flex gap-4">
+          <a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-primary hover:text-black transition-all" href="#">
+            <span class="material-icons text-sm">public</span>
+          </a>
+          <a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-primary hover:text-black transition-all" href="#">
+            <span class="material-icons text-sm">forum</span>
+          </a>
+          <a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-primary hover:text-black transition-all" href="#">
+            <span class="material-icons text-sm">terminal</span>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-mono text-accent-teal text-sm uppercase mb-8 tracking-[0.2em] font-bold">Network</h4>
+        <ul class="space-y-4 font-mono text-sm text-gray-400">
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; API_DOCS</a></li>
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; SERVERS</a></li>
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; DEV_BRANCH</a></li>
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; CHANGELOG</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-mono text-accent-teal text-sm uppercase mb-8 tracking-[0.2em] font-bold">Protocol</h4>
+        <ul class="space-y-4 font-mono text-sm text-gray-400">
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; PRIVACY_POL</a></li>
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; LICENSE_GPL</a></li>
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; SECURITY</a></li>
+          <li><a class="hover:text-primary transition-colors" href="#">&gt; COMPLIANCE</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</section>
-
-<footer class="py-6 sm:py-8 px-4 sm:px-6 bg-black border-t border-gray-800">
-  <div class="container mx-auto text-center text-gray-500 text-xs sm:text-sm">
-    <p>&copy; {{ site.time | date: "%Y" }} Mixtape Haven. All Rights Reserved.</p>
-  </div>
-</footer>
+    <div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="font-mono text-xs text-gray-600 uppercase tracking-widest">
+        &copy; {{ site.time | date: "%Y" }} HAVEN_DYNAMICS. OPERATING_IN_THE_VOID.
+      </p>
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 bg-green-500 rounded-full shadow-[0_0_5px_#22c55e]"></span>
+        <span class="font-mono text-xs text-gray-500 uppercase">SERVER_STATUS: OPTIMAL</span>
+      </div>
+    </div>
+  </footer>
+</main>
